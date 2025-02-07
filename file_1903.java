@@ -1,1 +1,1 @@
-class ThreadExample extends Thread { public void run() { System.out.println("Thread running"); } }
+public class Counter { public static void main(String[] args) { for(int i=0;i<5;i++) System.out.println(i); } }
